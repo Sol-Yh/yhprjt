@@ -4,6 +4,7 @@
         <title>
             page 43
         </title>
+        <base href="./img/">              <!-- base : 모든 링크의 기본 폴더 지정 -->
         <style>
         p {                               /* p태그 선택자 */
             background-color: yellow;   /* 배경색 지정 */
@@ -16,5 +17,6 @@
         IT소프트웨어 학과 학생입니다.
         </p>
         <img src="./img/tae.jpg" width="429" height="606">  <!-- 자기 위치 / img폴더 / tae.jpg  파일 접근 -->
+        <img src="tae.jpg" width="429" height="606">        <!-- base태그 / tae.jpg 파일 접근-->
     </body>
 </html>

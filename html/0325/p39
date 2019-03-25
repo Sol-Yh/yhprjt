@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            page 39                         <!-- 제목 태그 -->
+        </title>
+        <style>
+                                            /* 태그 선택 : 태그명  |  id 선택 : #id값  |  class 선택 : .class값 */
+        body {                              /* body태그 선택자 */
+            background-color: #FFAA98;    /* 배경색 지정 */
+        }
+
+        #lg {                               /* id값이 lg 태그 선택  */
+            font-size: 40px;                /* 폰트 크기 40px */
+            color : blue;                 /* 폰트 색상 파란색 */
+        }
+        </style>
+    </head>
+    <body>
+        <h1>유한대학교</h1>                  <!-- h1~h6 숫자가 낮을수록 폰트사이즈 커짐 -->
+        <h2>유한대학교</h2>
+        <h3>유한대학교</h3>
+        <h4>유한대학교</h4>
+        <h5>유한대학교</h5>
+        <h6>유한대학교</h6>
+        <h7 id="lg">유한대학교</h7>          <!-- h7태그의 id값을 lg로 지정 --> <!-- #h7태그는 존재하지 않음# -->
+    </body>
+</html>

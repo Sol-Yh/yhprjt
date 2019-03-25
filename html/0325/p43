@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            page 43
+        </title>
+        <style>
+        p {                               /* p태그 선택자 */
+            background-color: yellow;   /* 배경색 지정 */
+        }
+        </style>
+    </head>
+    <body>
+        <p>
+        우리는 유한대학교<br>                                 <!-- p : 문단을 정의하는 태그  ,  br : 줄바꿈태그-->
+        IT소프트웨어 학과 학생입니다.
+        </p>
+        <img src="./img/tae.jpg" width="429" height="606">  <!-- 자기 위치 / img폴더 / tae.jpg  파일 접근 -->
+    </body>
+</html>

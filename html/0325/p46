@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            page 46
+        </title>
+        <style>
+            p {                               /* p태그 선택자 */
+                background-color: #FFAA98;    /* 배경색 지정 */
+            }
+
+            pre {                             /* pre태그 선택자 */
+                background-color: #98FFB9;    /* 배경색 지정 */
+                width : 300px;                /* 너비를 300px로 지정*/
+            }
+        </style>
+    </head>
+    <body>
+        <p>HTML은 웹 문서를 작성하는</p> 표준 언어입니다.</p>  <!-- p태그가 열리고 닫히는 부분까지만 p태그 css 적응됨 -->
+        <pre>p    r     e 태그는    입 력    하    는데로     <!-- pre : 문서내에서 작성한 그대로 화면에 출력해줌 -->
+            나<br /> 
+            옴
+        </pre>
+    </body>
+</html>

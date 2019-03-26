@@ -72,7 +72,7 @@ void c032607(){					//@ test
 	printf("%d\n",m);			//출력  || m출력 결과 : 1
 }
 
-void c032608(){
+void c032608(){							      //@ test
 	int height,feet;					      //정수형 변수 센치 피트
 	float inch;						      //실수형 변수 인치
 	printf("키를 입력하세요 : "); scanf("%d",&height);             //센치 입력받기

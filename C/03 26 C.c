@@ -57,13 +57,13 @@ void c032605(){					//@ 3항 연산자
 	printf("최대값 : %d",max);		      //출력  ||  max출력 10나옴
 }
 
-void c032606(){							     //@ test
+void c032606(){							   //@ test
 	int a,b,c,max;						     //정수형 변수 a,b,c,max 선언
 	printf("첫번째 수 입력 : "); scanf_s("%d",&a);		//a값 받기
 	printf("두번째 수 입력 : "); scanf_s("%d",&b);		//b값 받기
 	printf("세번째 수 입력 : "); scanf_s("%d",&c);		//c값 받기
-	max = (a>b) ? ((a>c) ? a : c) : ((b>c) ? b : c);	     //a>b중 큰 값을 c와 비교해서 최종 최대값 도출
-	printf("최대값 : %d\n",max);				   //출력  || 최대값 출력
+	max = (a>b) ? ((a>c) ? a : c) : ((b>c) ? b : c);	   //a>b중 큰 값을 c와 비교해서 최종 최대값 도출
+	printf("최대값 : %d\n",max);				  //출력  || 최대값 출력
 }
 
 main(){

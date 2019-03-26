@@ -54,7 +54,7 @@ void c032604(){					//@관계연산자,비교연산자
 void c032605(){					//@ 3항 연산자
 	int a=10,b=5,max;			//정수형 변수 a=10,b=5로 초기화 , max 선언 
 	max = (a>b) ? a : b;			//3항 연산자  max에 a>b가 true면 a 대입 아니면 b 대입
-	printf("최대값 : %d",max);		//출력  ||  max출력 10나옴
+	printf("최대값 : %d\n",max);		//출력  ||  max출력 10나옴
 }
 
 void c032606(){							//@ test

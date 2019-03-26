@@ -75,7 +75,7 @@ void c032607(){					//@ test
 void c032608(){
 	int height,feet;					      //정수형 변수 센치 피트
 	float inch;						      //실수형 변수 인치
-	printf("키를 입력하세요 : "); scanf("%d",&height);           //센치 입력받기
+	printf("키를 입력하세요 : "); scanf("%d",&height);             //센치 입력받기
 	inch = height / 2.54;					      //인치 = 센치 / 2.54
 	feet = inch / 12;					      //피트 = 인치 / 12
 	printf("%dcm는 %d피트 , %.2f인치입니다",height , feet , inch); //센치 피트 인치 출력

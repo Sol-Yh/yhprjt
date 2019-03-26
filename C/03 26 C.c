@@ -58,7 +58,7 @@ void c032605(){					//@ 3항 연산자
 }
 
 void c032606(){							//@ test
-	int a,b,c,max;						 //정수형 변수 a,b,c,max 선언
+	int a,b,c,max;						//정수형 변수 a,b,c,max 선언
 	printf("첫번째 수 입력 : "); scanf_s("%d",&a);		//a값 받기
 	printf("두번째 수 입력 : "); scanf_s("%d",&b);		//b값 받기
 	printf("세번째 수 입력 : "); scanf_s("%d",&c);		//c값 받기

@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>p51</title>
+    </head>
+    <body>
+        <table border="1">
+            <caption>학생성적 종합표</caption>
+            <thead>
+                <tr>
+                    <th>구분</th>
+                    <th>홍길동</th>
+                    <th>박창수</th>
+                    <th>정표상</th>
+                    <th>유명진</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td>중간고사</td>
+                    <td>88</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> 
+                <tr>
+                    <td>기말고사</td>
+                    <td>88</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>프로젝트</td>
+                    <td>75</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>합계</td>
+                    <td>251</td>
+                    <td>274</td>
+                    <td>229</td>
+                    <td>225</td>
+                </tr>
+                <tr>
+                    <td>평균</td>
+                    <td>81</td>
+                    <td>91</td>
+                    <td>76</td>
+                    <td>75</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </body>
+</html>

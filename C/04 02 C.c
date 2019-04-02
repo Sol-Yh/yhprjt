@@ -51,6 +51,16 @@ void c040204(){					//양수 음수 0 판별코드
 	else printf("음수\n");			//0보다 작으면 음수
 }
 
+void c040205(){							//등급매기기
+	int x;
+	printf("정수 입력:"); scanf("%d",&x);
+	if(x>=90) printf("A\n");			//90이상 A
+	else if(x>=80) printf("B\n");		//90미만 80이상 B
+	else if(x>=70) printf("C\n");		//80미만 70이상 C
+	else if(x>=60) printf("D\n");		//70미만 60이상 D
+	else printf("F\n");					//60미만 F
+}
+
 main(){
 	c040203();
 }

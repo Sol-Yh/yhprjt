@@ -43,6 +43,14 @@ void c040203(){						//짝수 홀수
 	}
 }
 
+void c040204(){
+	int x;
+	printf("정수 입력:"); scanf("%d",&x);	
+	if(x>0) printf("양수\n");			//0보다 크면 양수
+	else if(x==0) printf("제로\n");		//0과 같으면 제로
+	else printf("음수\n");			//0보다 작으면 음수
+}
+
 main(){
 	c040203();
 }

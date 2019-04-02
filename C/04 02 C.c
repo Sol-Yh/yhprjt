@@ -61,7 +61,7 @@ void c040205(){					//등급매기기
 	else printf("F\n");			//60미만 F
 }
 
-void c040206(){							//윤년, 월별 마지막일 수
+void c040206(){					//윤년, 월별 마지막일 수
 	int year;
 	int month;
 

@@ -71,15 +71,15 @@ void c040206(){							//윤년, 월별 마지막일 수
 	if(month == 2){
 		if((year%4==0 && year%100 != 0) || year%400 ==0)	
 				printf("2월은 29일까지 있습니다\n");
-		else	printf("2월은 28일까지 있습니다\n");
+		else		printf("2월은 28일까지 있습니다\n");
 	}
 	else if(month < 8){
 		if(month%2== 1) printf("%d월은 31일까지 있습니다\n",month);
-		else			printf("%d월은 30일까지 있습니다\n",month);
+		else		printf("%d월은 30일까지 있습니다\n",month);
 	}
 	else{
 	if(month%2== 0)		printf("%d월은 31일까지 있습니다\n",month);
-		else			printf("%d월은 30일까지 있습니다\n",month);
+		else		printf("%d월은 30일까지 있습니다\n",month);
 	}
 }
 

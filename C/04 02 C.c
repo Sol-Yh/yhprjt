@@ -83,6 +83,26 @@ void c040206(){					//윤년, 월별 마지막일 수
 	}
 }
 
+void c040207(){			//년도별 띠 찾기
+	int year;
+	printf("년도 입력:"); scanf("%d",&year);
+
+	printf("%d년생은 ",year);
+	if(year % 12 == 0) printf("원숭이");
+	if(year % 12 == 1) printf("닭");
+	if(year % 12 == 2) printf("개");
+	if(year % 12 == 3) printf("돼지");
+	if(year % 12 == 4) printf("쥐");
+	if(year % 12 == 5) printf("소");
+	if(year % 12 == 6) printf("호랑이");
+	if(year % 12 == 7) printf("토끼");
+	if(year % 12 == 8) printf("용");
+	if(year % 12 == 9) printf("뱀");
+	if(year % 12 == 10) printf("말");
+	if(year % 12 == 11) printf("양");
+	printf("띠입니다.\n");
+}
+
 main(){
 	c040203();
 }

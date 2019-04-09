@@ -9,19 +9,19 @@ void c040901(){
 
 	printf("user : %d  |  com : %d\n",user,com);
 	if(user == 0){
-		if(com == 0){ printf("비김");}
-		else if(com == 1){ printf("짐");}
-		else{ printf("이김");}
+		if(com == 0) printf("비김");
+		else if(com == 1) printf("짐");
+		else printf("이김");
 	}
 	else if(user == 1){
-		if(com == 0){ printf("이김");}
-		else if(com == 1){ printf("비김");}
-		else{ printf("짐");}
+		if(com == 0) printf("이김");
+		else if(com == 1) printf("비김");
+		else printf("짐");
 	}
 	else{
-		if(com == 0){ printf("짐");}
-		else if(com == 1){ printf("이김");}
-		else{ printf("비김");}
+		if(com == 0) printf("짐");
+		else if(com == 1) printf("이김");
+		else printf("비김");
 	}
 	printf("\n");
 }
@@ -71,8 +71,5 @@ void c040904(){
 }
 
 main(){
-	c040901();
-	c040902();
-	c040903();
 	c040904();
 }

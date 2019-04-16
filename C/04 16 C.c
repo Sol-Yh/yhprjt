@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 void c041601(){
 	//===== for 2^10 =====
@@ -99,13 +101,87 @@ void c041605(){
 	int i;
 	printf("약수구할 수 입력 : "); scanf("%d",&x);
 	printf("==%d의 약수==\n",x);
-	for(i=1; i<=x; i++){
+	for(i=1; i<=x/2; i++){
 		if(x%i==0){
 			printf("%d\n",i);
 		}
 	}
+	printf("%d\n",x);
 	
 }
+
+void c041606(){
+	int i,s=0;
+	for(i=1; ; i++){
+		s+=i;
+		printf("%d : %d\n",i,s);
+		if(s>=1000)
+			break;
+	}
+}
+
+void c041607(){
+	int x;
+	for(;;){
+		printf("수입력(0입력시 종료) : "); scanf("%d",&x);
+		if(x==0) break;
+	}
+}
+
+void c041608(){
+	int x;
+	while(1){
+		printf("수입력(0입력시 종료) : "); scanf("%d",&x);
+		if(x==0) break;
+	}
+}
+
+void c041609(){
+	int i,s=0;
+	for(i=1;i<=100 ; i++){
+		if(i%2==0)
+		continue;	//밑줄은 실행하지 않고 다시 반복문으로
+		s+=i;
+		printf("%d : %d\n",i,s);
+	}
+}
+
+void c041610(){
+	int i=1,s=0;
+	while(i<=100){
+		if(i%2==0){
+			i++;
+			continue;	//밑줄은 실행하지 않고 다시 반복문으로
+		}
+		s+=i;
+		printf("%d : %d\n",i,s);
+		i++;
+	}
+}
+
+void c041611(){
+	int my , c ,i=10;
+	srand((unsigned)time(0));
+	c = rand()%100+1;
+	for(;;){
+		if(i <= 0) {
+			printf("기회끝남 ㅅㄱ 답은 %d임\n",c);
+			break;
+		}
+		printf("1~100중 몇이게(기회 %d번 남음) : ",i);scanf("%d",&my);
+		if(my == c){
+			printf("이걸 맞추네\n"); break;
+		}
+		else if(my < c){
+			i--;
+			printf("UP\n");
+		}
+		else{
+			i--;
+			printf("DOWN\n");
+		}
+	}
+}
 main(){
-	c041605();
+	c041611();
 }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>시멘틱</title>
+    </head>
+    <style>
+        header{
+            background: #555; color: white; height: 15%; text-align: center;
+        }
+        #menu{
+            background: #333; color:white; height: 10%; overflow: hidden;
+        }
+        #menu > a{
+            color: white; float: left; display: block; color: #f2f2f2; text-align: center; padding: 7px 10px; text-decoration: none; 
+        }
+
+        #content1, #content2{
+            background: ghostwhite; float: left; width: 70%;
+        }
+
+        #content1 {
+            height: 35%;
+        }
+        #content2 {
+            height: 30%;
+        }
+
+        #menu > a:hover{
+            background-color: #bbb; color: black;
+        }
+
+        li{
+            list-style-position: inside;    
+        }
+
+        #container{
+            height: 380px;
+        }
+
+        #side{
+            background: gainsboro; height: 65%; text-align: center;
+        }
+
+        footer{
+            background: darkgray; clear: both; height: 10%; text-align: center;
+        }
+    </style>
+    <body>
+            <div id="container">
+            <header>웹페이지 타이틀</header>
+            <nav id="menu">
+                <a href="https://www.instagram.com/">인스타</a>
+                <a href="https://www.facebook.com/">페북</a>
+                <a href="https://www.daum.net/">다음</a>
+            </nav>
+            <section id="content1">유한대학교는 한국에 있는 모범대학이다.</section>
+            <article id="content2">우리는 유한대학에서 미래를 준비하고 있다.</article>
+            <aside id="side">
+                참고내용
+                <ul>
+                    <li>참고내용 1</li>
+                    <li>참고내용 2</li>
+                </ul>
+            </aside>
+            <footer>연락처 : 010-9484-9648&nbsp;&nbsp;&nbsp;김솔</footer>
+        </div>
+    </body>
+    
+</html>

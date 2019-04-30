@@ -101,21 +101,47 @@ void c1904305(){
 	}
 
 	while(1){
-			if(dayC == dayM) break;
-			if(x<day+1){
-					printf("   X");
-			}
-			else{ 
-				printf("%4d",dayC+1);
-				dayC++;
-			}
-			if(x%7==0) printf("\n");
-			x++;
+		if(dayC == dayM) break;
+		if(x<day+1){
+				printf("    ");
 		}
+		else{ 
+			printf("%4d",dayC+1);
+			dayC++;
+		}
+		if(x%7==0) printf("\n");
+		x++;
+	}
 		printf("\n");
 }
 
+void cFBNC(){
+	/*
+			   if n=0 : 0
+		F(n) = if n=1 : 1
+			      n   : F(n-1)+F(n-2)
+	*/
+	int fbnc; //피보나치 수열 항
+	int i=1;  
+	int x=0,y=1,z;
+	printf("======201907013======\n");
+	printf("X번째 항까지 출력 : "); scanf("%d",&fbnc); //피보나치 수열 항 입력받기
+	if(fbnc == 0){	//피보나치 수열의 항이 0인경우 결과값을 0만 출력하기 위해 사용
+		printf("[0");
+	}
+	else{
+		printf("[%d , %d",x,y);
+		for(i; i<fbnc; i++){
+			z = x+y;		// F(n) : F(n-1)+F(n-2)
+			printf(" , %d",z);
+			x=y;
+			y=z;
+		}
+	}
+	printf("]\n");
+}
+
 main(){
-	c1904305();
+	c1904301();
 	//피보나치 수열 Q12 : 저장명 학번이름 || hijinsu@naver.com
 }

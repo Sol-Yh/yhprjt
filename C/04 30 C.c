@@ -141,7 +141,12 @@ void cFBNC(){
 	printf("]\n");
 }
 
+void c1904306(){
+	int month,months[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
+	printf("몇월 : "); scanf("%d",&month);
+	printf("%d월은 %d일까지 있음\n",month,months[month-1]);
+}
 main(){
-	c1904301();
+	c1904306();
 	//피보나치 수열 Q12 : 저장명 학번이름 || hijinsu@naver.com
 }
